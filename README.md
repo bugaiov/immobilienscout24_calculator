@@ -21,5 +21,10 @@ Calculates metrics for the given apartment for immobilienscout24
 
 ## Usage
 
+Get the id from, example https://www.immobilienscout24.de/expose/88934142
+
+
 `ruby immo24_calc.rb 88934142`
-Will fetch `https://www.immobilienscout24.de/expose/88934142?`
+
+## Dependencies
+`gem install nokogiri'
